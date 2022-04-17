@@ -3,8 +3,7 @@ require "include/head.php";
 require "include/menu.php";
   ?>
   <div class="content-wrapper">
-<section class="content">
-<div class="container-fluid">
+
 <style>
     table,table th,table td{
     border:1px solid #aaa;
@@ -15,8 +14,33 @@ require "include/menu.php";
     height:50px;
   }
 </style>
+<div class="container-fluid">
 <div class="row">
-  <table>
+  <table class="col-8">
+    <thead>
+      <tr>
+        <th>顏色</th><th>HTML顏色名稱</th><th>HEX色碼</th><th>RGB色碼</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><div class="pick" style="background-color:black;"></</td><td>black</td><td>#000000</td><td>rgb(0, 0, 0)</td>
+      </tr>
+      <tr>
+        <td><div class="pick" style="background-color:Maroon;"></</td><td>Maroon</td><td>#800000</td><td>rgb(128, 0, 0)</td>
+      </tr>
+      <tr>
+        <td><div class="pick" style="background-color:DarkRed;"></</td><td>DarkRed</td><td>#8b0000</td><td>rgb(139, 0, 0)</td>
+      </tr>
+      <tr>
+        <td><div class="pick" style="background-color:Red;"></</td><td>Red</td><td>#ff0000</td><td>rgb(255, 0, 0)</td>
+      </tr>
+      <tr>
+        <td><div class="pick" style="background-color:FireBrick;"></</td><td>FireBrick</td><td>#b22222</td><td>rgb(178, 34, 34)</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="col-8">
       <thead>
           <tr>
               <th>色彩樣式</th> 
@@ -43,9 +67,9 @@ require "include/menu.php";
   </table>
   </div>
 
-</div>
+  </div>
 
-</section>  </div>
+ </div>
 <?php
 require "include/footer.php";
   ?>
