@@ -168,18 +168,19 @@ require "include/menu.php";
        "Crimson",
        "Pink",
        "LightPink",
-       "SandBeige",
      ];
      
+     var brow = $.support;
+     alert(brow.opera);
      $(".divColor").append(list_color(colors));
 
     function list_color(c){
       var tb='';
-      tb += "<table id='tbc'><tr><td>序號</td><td>顏色</td><td>顏色名稱</td></tr>";
+      tb += "<table id='tbc'><tr><td>序號</td><td>顏色</td><td>顏色名稱</td><td>色碼</td></tr>";
       var ii=0;
       $.each(c,function(i,v){
         ii += 1;
-        tb += "<tr><td>" + ii + "</td><td><div style='background-color:" + v + ";width:50px;height:50px;'></div></td><td>" + v + "</td></tr>";
+        tb += "<tr><td>" + ii + "</td><td><div id='co' style='background-color:" + v + ";width:50px;height:50px;'></div></td><td>" + v + "</td><td>" + $("#co").css("background-color") + "</td></tr>";
       });
       tb += "</table>";
       return tb;
