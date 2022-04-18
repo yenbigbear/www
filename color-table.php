@@ -16,7 +16,7 @@ require "include/menu.php";
 </style>
 <div class="container-fluid">
 <div class="row">
-  <table class="col-6">
+  <table class="col-6" id="tbcolor">
     <thead>
       <tr>
         <th>顏色</th><th>HTML顏色名稱</th><th>HEX色碼</th><th>RGB色碼</th>
@@ -241,6 +241,12 @@ require "include/menu.php";
   </div>
 
  </div>
+ <script>
+   $(function(){
+    let col = $("#tbcolor tr:eq(2) td:eq(2)").text();
+    alert(col.substring(1,3));
+   })
+ </script>
 <?php
 require "include/footer.php";
   ?>
