@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <a href="../www" class="brand-link">
     <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
-      <span class="brand-text font-weight-light fa fa-pie-chart">製三組</span>
+      <span class="brand-text ">製三組</span>
     </a>
 
     <div class="sidebar">
