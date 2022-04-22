@@ -34,7 +34,7 @@
 <!-- Bootstrap 4 -->
 <script src="../../admin3.2/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- ChartJS -->
-<script src="../../admin3.2/plugins/chart.js/Chart.min.js"></script>
+<script src="../../admin3.2/plugins/chart.js/chart.js"></script>
 <!-- Sparkline -->
 <!-- <script src="../../admin3.2/plugins/sparklines/sparkline.js"></script>-->
 <!-- JQVMap -->

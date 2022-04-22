@@ -912,7 +912,7 @@ require "include/menu.php";
       tb += "<table id='tbc' class='col'><tr><td colspan=3>顏色的英文名對照</td></tr>";
       var ii=0;
       i=0;
-      for(i=0;i<=c.length/3;i++){
+      for(i=0;i<=(c.length/3)-1;i++){
         tb += "<tr><td><div id='co' class='col' style='background-color:" + c[i] + ";height:50px;'>" + c[i] + "</div></td><td><div id='co' class='col' style='background-color:" + c[i+47] + ";height:50px;'>" + c[i+47] + "</div></td><td><div id='co' class='col' style='background-color:" + c[i+94] + ";height:50px;'>" + c[i+94] + "</div></td></tr>";
       }
       //$.each(c,function(i,v){
