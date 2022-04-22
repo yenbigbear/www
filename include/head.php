@@ -57,6 +57,7 @@
 <!-- <script src="../../admin3.2/dist/js/demo.js"></script>-->
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <!-- <script src="../../admin3.2/dist/js/pages/dashboard.js"></script>-->
+<script src="MyAjax/MyAjax.js"></script>
 <script src="js/init.js"></script>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
