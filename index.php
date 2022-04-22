@@ -1,6 +1,6 @@
 <?php
-require "include/head.php";
-require "include/menu.php";
+require "class/Plugin.php";
+$p = new Plugin();
 ?>
 <div class="content-wrapper">
 <div class="container-fluid">

@@ -1,5 +1,5 @@
 $.ajax({
-    url:,
+    url:"MyAJAX/MyAjax.php",
     method:"POST",
     dataType:"JSON",
     data: ,
