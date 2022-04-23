@@ -18,3 +18,7 @@ function get_chart(id,md){
         }
     });
 }
+
+function select_raw(id,mode){
+    
+}
