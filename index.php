@@ -20,6 +20,7 @@ $p = new Plugin();
                 </div>
               </div>
               <div class="card-body">
+                <?=$p->SelectList("f1")?>
                 <div id="raw" style="width: 800px;height:400px;"></div>
               </div>
               <!-- /.card-body -->
@@ -31,7 +32,7 @@ $p = new Plugin();
 </div>
 <script>
   $(function(){
-   get_chart("raw","pie","2021-1");
+   get_chart("raw","pie","2021-11");
 
   });
   
