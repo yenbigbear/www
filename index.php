@@ -20,7 +20,7 @@ $p = new Plugin();
                 </div>
               </div>
               <div class="card-body">
-                <div id="raw" style="width: 600px;height:400px;"></div>
+                <div id="raw" style="width: 800px;height:400px;"></div>
               </div>
               <!-- /.card-body -->
             </div>
@@ -31,7 +31,7 @@ $p = new Plugin();
 </div>
 <script>
   $(function(){
-   get_chart("raw","pie");
+   get_chart("raw","pie","2021-1");
 
   });
   

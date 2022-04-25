@@ -1,9 +1,10 @@
 
-function get_chart(id,md){
+function get_chart(id,md,ym){
     $.ajax({
         url: "MyAjax/MyAjax.php",
         data: {
-            "mode":md
+            "mode":md,
+            "ym":ym
         },
         type:"post",
         DataType:"json",
